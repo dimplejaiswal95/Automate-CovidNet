@@ -1,0 +1,119 @@
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: covidx3a
+  namespace: deploy-app
+  labels:
+    name: covidx3a
+spec:
+  
+  containers:
+    - name: covidx3a-app
+      image: dimplejaiswal/covidx3a-app
+      
+      ports:
+        - containerPort: 5000
+          name: covidx3a
+
+
+
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: covidx3b
+  namespace: deploy-app
+  labels:
+    name: covidx3b
+spec:
+  
+  containers:
+    - name: covidx3b-app
+      image: dimplejaiswal/covidx3b-app
+      
+      ports:
+        - containerPort: 5000
+          name: covidx3b
+
+
+
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: covidx3c
+  namespace: deploy-app
+  labels:
+    name: covidx3c
+spec:
+  
+  containers:
+    - name: covidx3c-app
+      image: dimplejaiswal/covidx3c-app
+      
+      ports:
+        - containerPort: 5000
+          name: covidx3c
+
+
+
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: covidx4a
+  namespace: deploy-app
+  labels:
+    name: covidx4a
+spec:
+  
+  containers:
+    - name: covidx4a-app
+      image: dimplejaiswal/covidx4a-app
+      
+      ports:
+        - containerPort: 5000
+          name: covidx4a
+
+
+
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: covidx4b
+  namespace: deploy-app
+  labels:
+    name: covidx4b
+spec:
+  
+  containers:
+    - name: covidx4b-app
+      image: dimplejaiswal/covidx4b-app
+      
+      ports:
+        - containerPort: 5000
+          name: covidx4b
+
+
+
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: covidx4c
+  namespace: deploy-app
+  labels:
+    name: covidx4c
+spec:
+  
+  containers:
+    - name: covidx4c-app
+      image: dimplejaiswal/covidx4c-app
+      
+      ports:
+        - containerPort: 5000
+          name: covidx4c
+
+
