@@ -1,0 +1,11 @@
+sudo docker build -t keras-app:latest .
+sudo docker run -d -p 5000:5000 keras-app
+
+test your model 
+    sudo docker ps -a
+    curl -X POST -F image=@dog.jpg 'http://localhost:5000/predict'
+
+
+sudo docker images
+sudo docker tag <your image id> <your docker hub id>/<app name>
+sudo docker push <your docker hub name>/<app-name>

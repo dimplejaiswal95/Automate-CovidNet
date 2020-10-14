@@ -1,0 +1,22 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: deploy-app
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/dimplejaiswal95/Automate-CovidNet.git
+    targetRevision: HEAD
+    path: deploy-app
+    directory:
+      recurse: true
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: deploy-app
+  syncPolicy:
+    automated:
+      prune: false
+      selfHeal: false
+
+
