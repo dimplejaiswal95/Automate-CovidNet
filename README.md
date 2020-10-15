@@ -1,4 +1,6 @@
-# Automate-CovidNet
+# Automate-CovidNet 
+Automate-CovidNet is an iterative tool for COVID19 prediction. Here, the COVID19 prediction is improved by using different types of pre-trained models for prediction. It uses X-Ray image as an input image for inference. 
+
 ## Requirements - 
 - Docker
 - python 
