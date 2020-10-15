@@ -1,6 +1,6 @@
 # Automate-CovidNet
 ## Requirements - 
-- Dokcer
+- Docker
 - python 
 - Tensorflow
 - Terraform
