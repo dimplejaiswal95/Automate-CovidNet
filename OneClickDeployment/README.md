@@ -22,3 +22,6 @@ Dependencies:
 - helm
 - terragrunt
 
+Note- update cluster name and region according to your location over 
+1. [In cluster dir](https://github.com/dimplejaiswal95/Automate-CovidNet/blob/main/OneClickDeployment/cluster/terraform.tfvars)
+2. [In helm dir](https://github.com/dimplejaiswal95/Automate-CovidNet/blob/main/OneClickDeployment/helm-chart/terraform.tfvars)
