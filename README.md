@@ -27,7 +27,7 @@
   Instructions for one click deployment are [here](https://github.com/dimplejaiswal95/Automate-CovidNet/tree/main/OneClickDeployment)
  
  * Dockerizing the [test-app](https://github.com/dimplejaiswal95/Automate-CovidNet/tree/main/test-app)-
- Similar to models.
+ Similar to dockerizing the models.
  
  * Deploying the [test](https://github.com/dimplejaiswal95/Automate-CovidNet/tree/main/deploy-test) on Cluster -
     command: kubectl apply -f [deploy-test-app.yaml](https://github.com/dimplejaiswal95/Automate-CovidNet/blob/main/deploy-test/deploy-test-app.yaml)
